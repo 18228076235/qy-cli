@@ -1,0 +1,30 @@
+{
+  "name": "qy-cli-test-template",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "bin": {
+    "qy": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "18228076235",
+    "email": "1633584401@qq.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.2",
+    "chalk": "^3.0.0",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "8.0.0",
+    "ora": "5.0.0"
+  }
+}
