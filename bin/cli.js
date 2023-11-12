@@ -25,6 +25,7 @@ program
 program
   .version(`v${require("../package.json").version}`)
   .usage("<command> [option]");
+
 program.on("--help", () => {
   console.log(
     `\n\nRun ${chalk.cyan(

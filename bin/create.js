@@ -4,7 +4,6 @@ const inquirer = require("inquirer");
 const Generator = require("../lib/Generator");
 
 module.exports = async function (name, options) {
-  console.log(options);
   const cwd = process.cwd();
   const targetAir = path.join(cwd, name);
   if (fs.existsSync(targetAir)) {
