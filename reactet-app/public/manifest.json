@@ -1,0 +1,16 @@
+{
+  "short_name": "纽睿一体化系统",
+  "name": "纽睿一体化系统",
+  "description": "neroun",
+  "icons": [
+    {
+      "src": "./img/icons/apple-touch-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

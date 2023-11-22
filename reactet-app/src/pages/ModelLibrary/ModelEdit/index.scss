@@ -1,0 +1,63 @@
+@import '../Components/BaseModel/ModelLabel.scss';
+.model_edit {
+  width: 100%;
+  .right_menu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+  .ant-spin {
+    max-height: inherit !important;
+    &-blur {
+      opacity: 0;
+    }
+  }
+  &_header {
+    position: absolute;
+    z-index: 2;
+    width: calc(100% - 60px);
+    height: 50px;
+    background: #fff;
+    padding: 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    &_exit {
+      color: #727b8d;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  &_box {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
+canvas {
+  display: block;
+  outline: none;
+}
+
+// .model_label_circle {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   border-radius: 50%;
+//   opacity: 0;
+//   background: $color;
+//   animation: circle-opacity 2s infinite;
+// }
+// @keyframes circle-opacity {
+//   from {
+//     opacity: 1;
+//     transform: scale(1);
+//   }
+//   to {
+//     opacity: 0;
+//     transform: scale(2);
+//   }
+// }

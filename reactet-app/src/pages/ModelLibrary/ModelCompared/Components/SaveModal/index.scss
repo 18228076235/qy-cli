@@ -1,0 +1,31 @@
+/*
+ * @Author: huxianyong 
+ * @Date: 2019-12-03 14:43:37 
+ * @Last Modified by: huxianyong
+ * @Last Modified time: 2019-12-03 15:00:04
+ */
+.saveModal {
+  background-color: #ffffff;
+  padding: 30px;
+  .modal_form {
+    display: flex;
+    .title_input {
+      .ant-input {
+        border-right: none;
+        &:focus,
+        &:hover {
+          border-color: #d6d8dd;
+          box-shadow: none;
+        }
+      }
+      .ant-input-group-addon {
+        background-color: #ffffff;
+        padding: 0 11px 0 0;
+      }
+    }
+    .has-error .ant-input,
+    .has-error .ant-input:hover {
+      border-color: #dc4c40 !important;
+    }
+  }
+}

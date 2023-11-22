@@ -1,0 +1,21 @@
+.control {
+  -webkit-app-region: drag;
+  height: 155px;
+  text-align:center;
+  &_box{
+    margin:auto;
+    & > h1{
+      & > span{
+        color:#fff;
+        font-size:20px;
+        font-weight: 400;
+      }
+    }
+  }
+  .icon_logo{
+    width:80px;
+    height: 54px;
+    background: url('../../assets/neuron_logo.png');
+    margin: auto;
+  }
+}

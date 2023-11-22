@@ -46,6 +46,13 @@ module.exports = (async function () {
       type: "password",
       name: "password",
       message: "Your password",
+      validate: function (value) {
+        if (value.length) {
+          return true;
+        } else {
+          return "请输入你的密码.";
+        }
+      },
     },
   ]);
   const destUrl = path.join(__dirname, "../templates");

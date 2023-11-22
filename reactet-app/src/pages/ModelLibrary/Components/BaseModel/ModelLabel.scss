@@ -1,0 +1,37 @@
+$color: #6765e6;
+.model_label_dot {
+  background: $color;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.model_label_line {
+  border: transparent;
+  position: absolute;
+  height: 1px;
+  // width: 100px;
+  transform-origin: left center;
+  top: 6px;
+  left: 6px;
+  background: $color;
+}
+.model_label_area {
+  cursor: pointer;
+  resize: none;
+  transform-origin: center;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: -50px;
+  color: white;
+  background: rgba(103, 101, 230, 0.12);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 -2px 6px -1px rgba(103, 101, 230, 0.1);
+  font-size: 16px;
+  padding: 6px;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}

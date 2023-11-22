@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true, // 允许js
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react",
+    "lib": ["dom", "es6", "es2016", "dom.iterable", "scripthost"],
+    "types": ["jest"],
+    "allowSyntheticDefaultImports": true, // import React from 'react'
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "containers/*": ["containers/*"],
+      "pages/*": ["pages/*"],
+      "style/*": ["style/*"],
+      "utils/*": ["utils/*"],
+      "static/*": ["static/*"],
+      "assets/*": ["assets/*"],
+      "store/*": ["store/*"],
+      "lodash/*": ["node_modules/@types/lodash-es/*"],
+      "hooks/*": ["hooks/*"],
+      "server/*": ["server/*"],
+      "locales/*": ["locales/*"],
+      "global/*": ["global/*"]
+    }
+  },
+  "include": ["src", "src/setupTests.ts"]
+}

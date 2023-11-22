@@ -1,0 +1,54 @@
+/*
+ * @Author: shiyao you 
+ * @Date: 2019-11-26 17:28:17 
+ * @Last Modified by: shiyao you
+ * @Last Modified time: 2019-12-02 20:01:12
+ */
+.modal {
+  width: 522px !important;
+  .modal_form_item {
+    width: 200px;
+  }
+  .modal_parent {
+    background: #ffffff;
+    padding: 20px 28px;
+    border-radius: 4px;
+    .ant-form-explain {
+      position: absolute;
+    }
+    .ant-form-item-label {
+      text-align: left;
+    }
+    .ant-col {
+      display: block;
+      line-height: 28px;
+    }
+  }
+  .ant-modal-header {
+    padding: 7px 17px;
+
+    .ant-modal-title {
+      color: #727b8d;
+    }
+  }
+  .ant-modal-close {
+    top: -8px;
+  }
+  .ant-modal-footer {
+    background: #f5f6fa;
+    border-top: none;
+    button {
+      width: 80px;
+    }
+  }
+  &_form {
+    .ant-form-item-control {
+      line-height: 24px;
+    }
+    &_item {
+      &_input {
+        width: 200px;
+      }
+    }
+  }
+}

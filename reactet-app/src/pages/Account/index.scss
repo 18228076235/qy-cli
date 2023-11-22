@@ -1,0 +1,90 @@
+/*
+ * @Author: shiyao you 
+ * @Date: 2019-11-25 17:35:50 
+ * @Last Modified by: shiyao you
+ * @Last Modified time: 2019-11-25 19:49:38
+ */
+.account {
+  background: #ffffff;
+  .ant-pagination-prev,
+  .ant-pagination-next,
+  .ant-select-selection--single,
+  .ant-pagination-total-text,
+  .ant-pagination-options-quick-jumper,
+  .ant-pagination-options-quick-jumper input {
+    height: 24px;
+    line-height: 24px;
+  }
+  .ant-select-selection__rendered {
+    line-height: 22px;
+  }
+  .ant-pagination-item {
+    border: 1px solid #a0a4ad;
+    height: 24px;
+    line-height: 24px;
+  }
+  .ant-pagination-item-active {
+    background: #727b8d;
+  }
+  .ant-pagination-item-active a {
+    color: #ffffff;
+  }
+  .ant-table-pagination.ant-pagination {
+    margin: 16px 16px;
+  }
+  &_button {
+    padding: 0;
+  }
+  .account_first_columns_border {
+    border-right: 1px solid #f1f2f3;
+  }
+  .account_last_columns_border {
+    border-left: 1px solid #f1f2f3;
+  }
+  &_input {
+    span {
+      font-weight: bold;
+      display: inline-block;
+    }
+    &_title {
+      color: #727b8d;
+    }
+    &_inner {
+      width: 200px;
+      border: 1px solid #d6d8dd;
+    }
+  }
+  &_tool {
+    background: #ffffff;
+    .account_button {
+      width: 100px;
+      height: 32px;
+      font-size: 14px;
+    }
+  }
+  //修改表头文字、背景颜色
+  .ant-table-thead > tr > th {
+    color: white;
+    padding: 9px 9px;
+    background: #f0f3fa !important;
+    color: #32375a;
+    font-weight: bold;
+  }
+  .ant-table-tbody > tr > td {
+    padding: 9px 9px;
+    color: #32375a;
+  }
+
+  .account_table_single {
+    background: #ffffff;
+  }
+  .account_table_double {
+    background: #fafbfd;
+  }
+  .operation {
+    .ant-btn {
+      height: auto;
+      line-height: 1;
+    }
+  }
+}

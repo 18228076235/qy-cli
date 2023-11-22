@@ -1,0 +1,98 @@
+/*
+ * @Author: huxianyong 
+ * @Date: 2019-11-21 20:28:20 
+ * @Last Modified by: zhangxinyuan
+ * @Last Modified time: 2019-11-27 14:40:22
+ */
+@import './Components/BaseModel/ModelLabel.scss';
+.modelManage {
+  background-color: #ffffff;
+  &_header {
+    height: 60px;
+    position: relative;
+    border-radius: 4px 4px 0px 0px;
+    &_userinput {
+      width: 200px;
+      outline: none;
+      border-radius: 4px 4px 0px 0px;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid #d6d8dd;
+      box-shadow: 0px 1px 0px 0px rgba(241, 242, 243, 1);
+    }
+    &_userinfo {
+      width: 99px;
+      height: 12px;
+      color: #727b8d;
+      line-height: 14px;
+      font-weight: bold;
+    }
+  }
+  .modelTable {
+    .ant-table-column-title {
+      color: #32375a;
+      font-weight: bold;
+    }
+    .operate {
+      color: #52c5ff;
+    }
+    .ant-table-thead > tr > th {
+      padding: 9px 9px;
+      background-color: #f0f3fa;
+    }
+    .ant-table-tbody > tr > td {
+      padding: 9px 9px;
+    }
+    .ant-table-tbody > tr > td:nth-child(1) {
+      border-right: 1px solid #f1f2f3;
+    }
+    .ant-table-tbody > tr > td:nth-child(8) {
+      border-left: 1px solid #f1f2f3;
+    }
+    .ant-table-row:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    .ant-table-row:nth-child(even) {
+      background-color: #fafbfd;
+    }
+  }
+  .ant-pagination {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    &-prev,
+    &-next {
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+    }
+    &-item {
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+
+      border: 1px solid #a0a4ad;
+      &-active {
+        background-color: #727b8d;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+    // &-options {
+    //   width: 86px;
+    //   height: 24px;
+    //   .ant-select-selection {
+    //     width: 86px;
+    //     height: 24px;
+    //     &-selected-value {
+    //       font-size: 12px;
+    //       line-height: 24px;
+    //     }
+    //   }
+    //   .ant-select-arrow {
+    //     margin-right: -7px;
+    //     margin-top: -4px;
+    //   }
+    // }
+  }
+}
